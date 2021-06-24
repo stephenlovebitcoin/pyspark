@@ -1,7 +1,6 @@
 import os
 from pyspark.sql import SparkSession
 
-
 spark = SparkSession.builder.appName("covid-19").\
 config("spark.driver.bindAddress","localhost").\
 config("spark.ui.port","4050"). \
