@@ -6,7 +6,6 @@ config("spark.driver.bindAddress","localhost").\
 config("spark.ui.port","4050"). \
     getOrCreate()
 
-
 csv_file = spark.read.csv("/Users/stephen/Desktop/data science/data/dataset-master/data.csv",header=True)
 
 
